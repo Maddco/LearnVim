@@ -54,3 +54,32 @@
 ## How to insert a new line and be on insert mode?
 `O` above the line
 `o` below the line
+
+## Once on a line how to quickly move across text?
+`w` forward work by word
+`b` back word by word
+`0` all the way back
+`Shift ^` will take you all the way to front of first word
+`0w` will imulate Shift ^ and is easier to remember
+`$` end of the sentence
+
+## How to go to a specific line of the document?
+`:20` this will take you to line 20
+
+## Go exactly to and infront of value you seek by line
+`t<your-value>` This will take you right before the letter you seek
+`f<your-value>` This will take you exactly on the letter you seek
+`%` this will walk structures like beginning ( and end )
+
+## Delete a block of code.
+`d%` Have this selected on the ( or { to selete group
+`D` delete everything after cursor on line
+
+## How to change a work in code?
+`cw` this can be used to change a word
+`dw` delete a word
+`dt<your-value-to-delete-too>` This will delete value up until the character specificed.
+`ct<your-value-to-change-too` This will change value up until the character specified.
+
+## Find word appearing multiple times in doc
+`*` place cursor on word and hit multiple times to find its local
