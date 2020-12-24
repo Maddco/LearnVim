@@ -17,7 +17,7 @@
 `l` right
 `h` left
 
-## Also you can place a number infront of the command above to move that many.
+## Also you can place a number infront of the command above to move that many. This applies to many other actions on hear such as `}`
 
 `20j`
 
@@ -33,3 +33,24 @@
 ## How to skip two blocks of code?
 `{` up
 `}` down
+
+## How to delete an line and undo it also redo it?
+`dd` will delete
+`u` will undo
+`^R` redo
+
+## how to perform same action over?
+`dd` delete something
+`.` delete something else
+
+## Copy a line and paste.
+`yy` copy line
+`p` paste line below
+`P` paste line above
+
+## Enter visual mode use all prior commands to assit with actions
+`V`
+
+## How to insert a new line and be on insert mode?
+`O` above the line
+`o` below the line
